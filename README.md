@@ -1,44 +1,47 @@
 # Slackware KISS Repository
 
-Unofficial package repository for **Slackware KISS Desktop**.
+Unofficial third-party package repository for **Slackware KISS Desktop**.
 
-This repository provides additional packages and tools developed for the Slackware KISS Desktop project.
+This repository provides additional packages and management tools developed for the Slackware KISS Desktop project.
 
-## Repository information
+## Repository Information
 
 - **Distribution:** Slackware Linux
 - **Version:** 15.0
 - **Architecture:** x86_64
-- **Repository type:** Third-party package repository
-- **Package format:** `.txz`
-- **Package manager integration:** Slackpkg+
+- **Repository Type:** Third-party package repository
+- **Package Format:** `.txz`
+- **Package Manager Integration:** Slackpkg+
 
-## Repository structure
+## Repository Structure
 
 ```text
 slackware-kiss-repo/
+├── README.md
+├── INSTALL.md
 └── 15.0/
     └── x86_64/
-        ├── packages/
-        ├── PACKAGES.TXT
         ├── CHECKSUMS.md5
-        ├── FILE_LIST
-        └── ChangeLog.txt
+        └── packages/
+            └── *.txz
 ```
 
-## Package management
+## Package Management
 
-Packages are intended to be installed and managed using Slackware's native package tools and Slackpkg+.
+Packages are distributed in Slackware `.txz` format.
 
-Repository metadata will be generated and maintained as packages are published.
+Repository synchronization and package management are handled by **Slackware KISS Tools**, which provides:
 
-## Configuration
+- Repository synchronization
+- MD5 checksum verification
+- Slackpkg+ configuration
+- Desktop installation and update commands
 
-The repository will provide a Slackpkg+ mirror configuration after publication and validation.
+## Installation
 
-## Project
+See [INSTALL.md](INSTALL.md) for installation and configuration instructions, including the use of the Links text-based browser.
 
-Related project:
+## Related Project
 
 [Slackware KISS Desktop](https://github.com/demo4him/slackware-kiss-desktop)
 
