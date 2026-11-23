@@ -18,7 +18,7 @@ The recommended procedure uses the text-based Links browser to download Slackwar
 Open a terminal as your regular user and start Links with the direct package URL:
 
 ```bash
-links https://demo4him.github.io/slackware-kiss-repo/15.0/x86_64/packages/slackware-kiss-tools-1.0.1-noarch-1.txz
+links https://demo4him.github.io/slackware-kiss-repo/15.0/x86_64/packages/slackware-kiss-tools-1.0.2-noarch-1.txz
 ```
 
 When Links offers to download the file, save it to a directory where your user can write, for example:
@@ -34,7 +34,7 @@ If your Links build does not offer a download prompt for the direct package URL,
 Become root, then install the downloaded package. Replace `/home/your-user/Downloads/` with the directory where you saved it:
 
 ```bash
-installpkg /home/your-user/Downloads/slackware-kiss-tools-1.0.1-noarch-1.txz
+installpkg /home/your-user/Downloads/slackware-kiss-tools-1.0.2-noarch-1.txz
 ```
 
 ## 3. Configure the Repository
@@ -78,13 +78,13 @@ slackware-kiss-sync
 If you prefer the terminal, download the Tools package with:
 
 ```bash
-wget -P "$HOME/Downloads" https://raw.githubusercontent.com/demo4him/slackware-kiss-repo/main/15.0/x86_64/packages/slackware-kiss-tools-1.0.1-noarch-1.txz
+wget -P "$HOME/Downloads" https://raw.githubusercontent.com/demo4him/slackware-kiss-repo/main/15.0/x86_64/packages/slackware-kiss-tools-1.0.2-noarch-1.txz
 ```
 
 Then install it as root, using the actual download path:
 
 ```bash
-installpkg /home/your-user/Downloads/slackware-kiss-tools-1.0.1-noarch-1.txz
+installpkg /home/your-user/Downloads/slackware-kiss-tools-1.0.2-noarch-1.txz
 ```
 
 Continue with the repository configuration in Step 3.
